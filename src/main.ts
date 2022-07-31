@@ -24,7 +24,7 @@ async function bootstrap() {
 
   // 开启版本控制
   app.enableVersioning({
-    defaultVersion: [VERSION_NEUTRAL, '1', '2'],
+    defaultVersion: [VERSION_NEUTRAL],
     type: VersioningType.URI,
   });
 
